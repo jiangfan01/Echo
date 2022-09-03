@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+
+  .header {
+    height: 300px;
+    margin: 0 40px;
+
+    .our {
+      .our-text {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          color: white;
+          font-size: 18px;
+        }
+
+        span {
+          color: gray;
+
+        }
+      }
+
+      .our-title {
+        font-size: 32px;
+        color: white;
+        text-align: center;
+      }
+    }
+
+    .time {
+      display: flex;
+      color: #797979;
+      justify-content: space-between;
+
+      div {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .echo {
+    margin: 0 15px;
+
+    .owl-item {
+      width: 300px !important;
+      height: 552px;
+      margin-right: 15px;
+      position: relative;
+      overflow: hidden;
+
+      img {
+        width: 300px;
+        display: block;
+        height: 400px;
+      }
+      .pic{
+        height: 400px;
+        width: 300px;
+      }
+      #dingjingwen{
+        background: url("../img/Echo/dingjingwen2.jpg") no-repeat;
+        background-size:cover;
+        top: 0;
+        position: absolute;
+      }
+      .we .dingjingwen{
+        background: url("../img/Echo/dingjiwen.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .dingjingwen{
+        background: url("../img/Echo/dingjiwen.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      #liting{
+        background: url("../img/Echo/liting.png") no-repeat;
+        background-size: cover;
+      }
+
+      #tanling{
+        background: url("../img/Echo/tanling.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+      .we .tanling{
+        background: url("../img/Echo/tanling2.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .tanling{
+        background: url("../img/Echo/tanling2.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      #gumeng{
+        background: url("../img/Echo/img_2.png") no-repeat;
+        background-size: cover;
+      }
+      #mochunhua{
+        background: url("../img/Echo/mochunhua.jpg") no-repeat;
+        background-size: cover;
+      }
+      #wanyao{
+        background: url("../img/Echo/wanyao.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+      .we .wanyao{
+        background: url("../img/Echo/wanyao2.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .wanyao{
+        background: url("../img/Echo/wanyao2.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      #qimengling{
+        background: url("../img/Echo/img_1.png") no-repeat;
+        background-size: cover;
+      }
+      #human{
+        background: url("../img/Echo/human'.jpg") no-repeat;
+        background-size: cover;
+      }
+      #wangxiaojing{
+        background: url("../img/Echo/wangxiaojing.jpg") no-repeat;
+        background-size: cover;
+      }
+      #keyuchen{
+        background: url("../img/Echo/keyuchen.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+      .we .keyuchen{
+        background: url("../img/Echo/keyuchen2.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .keyuchen{
+        background: url("../img/Echo/keyuchen2.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      #liuye{
+        background: url("../img/Echo/liuye.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+      .we .liuye{
+        background: url("../img/Echo/liuye3.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .liuye{
+        background: url("../img/Echo/liuye3.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      #hongdou{
+        background: url("../img/Echo/hongdou.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        transition:all .5s;
+      }
+      .we .hongdou{
+        background: url("../img/Echo/hongdou2.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .hongdou{
+        background: url("../img/Echo/hongdou2.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      #ruanmeijuan{
+        background: url("../img/Echo/ruanmeijuan2.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+      .we .ruanmeijuan{
+        background: url("../img/Echo/RMJ.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .ruanmeijuan{
+        background: url("../img/Echo/RMJ.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      #dujialing{
+        background: url("../img/Echo/7db60c44cad6bb3960af4ecbfed62c6.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+      .we .dujialing{
+        background: url("../img/Echo/dujialing2.jpg") no-repeat;
+        background-size:cover;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+      }
+      .we:hover .dujialing{
+        background: url("../img/Echo/dujialing3.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition:all .5s;
+      }
+      .we{
+        height: 400px;
+        .they{
+          background: white;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          div{
+            margin: 0 20px;
+          }
+          .she{
+            font-size: 16px;
+            font-weight: bold;
+            padding-top: 30px;
+            padding-bottom: 5px;
+            color: #545454;
+          }
+          .birthday{
+            color: gray;
+          }
+          .meet{
+            font-size: 16px;
+            padding: 30px 0;
+          }
+        }
+      }
+    }
+    .about-me{
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        font-size: 16px;
+        color: #aeaeae;
+        border: 1px solid #aeaeae;
+        padding: 5px 12px;
+        border-radius: 5px;
+      }
+      a:hover{
+        color: gray;
+        border: 1px solid gray;
+      }
+    }
+  }
+  .footer{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    height: 150px;
+    .mean{
+      display: flex;
+      flex-direction: column;
+      p{
+        font-size: 24px;
+      }
+      .text{
+        font-size: 14px;
+      }
+    }
+    .now-time{
+      font-size: 16px;
+    }
+  }
+}
