@@ -47,6 +47,12 @@ li {
 .box .header .time div {
   font-size: 16px;
 }
+.box .owl-theme .owl-controls .owl-page:hover span {
+  background-color: gray;
+}
+.box .owl-theme .owl-controls .owl-page.active span {
+  background-color: white;
+}
 .box .echo {
   margin: 0 15px;
 }
@@ -75,10 +81,11 @@ li {
 .box .echo .owl-item .we .dingjingwen {
   background: url("../img/Echo/dingjiwen.jpg") no-repeat;
   background-size: cover;
-  top: 400px;
+  top: 100%;
   width: 100%;
   height: 400px;
   position: absolute;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .dingjingwen {
   background: url("../img/Echo/dingjiwen.jpg") no-repeat;
@@ -100,10 +107,11 @@ li {
 .box .echo .owl-item .we .tanling {
   background: url("../img/Echo/tanling2.jpg") no-repeat;
   background-size: cover;
-  top: 400px;
   width: 100%;
   height: 400px;
   position: absolute;
+  top: 100%;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .tanling {
   background: url("../img/Echo/tanling2.jpg") no-repeat;
@@ -113,8 +121,26 @@ li {
   transition: all 0.5s;
 }
 .box .echo .owl-item #gumeng {
-  background: url("../img/Echo/img_2.png") no-repeat;
+  background: url("../img/Echo/gumeng2.jpg") no-repeat;
   background-size: cover;
+  top: 0;
+  position: absolute;
+}
+.box .echo .owl-item .we .gumeng {
+  background: url("../img/Echo/gumeng2.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 100%;
+  transition: all 0.5s;
+}
+.box .echo .owl-item .we:hover .gumeng {
+  background: url("../img/Echo/gumeng3.jpg") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
 }
 .box .echo .owl-item #mochunhua {
   background: url("../img/Echo/mochunhua.jpg") no-repeat;
@@ -129,10 +155,11 @@ li {
 .box .echo .owl-item .we .wanyao {
   background: url("../img/Echo/wanyao2.jpg") no-repeat;
   background-size: cover;
-  top: 400px;
   width: 100%;
   height: 400px;
   position: absolute;
+  top: 100%;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .wanyao {
   background: url("../img/Echo/wanyao2.jpg") no-repeat;
@@ -160,15 +187,60 @@ li {
   position: absolute;
 }
 .box .echo .owl-item .we .keyuchen {
-  background: url("../img/Echo/keyuchen2.jpg") no-repeat;
+  background: url("../img/Echo/keyuchen4.jpg") no-repeat center center;
   background-size: cover;
-  top: 400px;
   width: 100%;
   height: 400px;
   position: absolute;
+  top: 100%;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .keyuchen {
-  background: url("../img/Echo/keyuchen2.jpg") no-repeat;
+  background: url("../img/Echo/keyuchen4.jpg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
+}
+.box .echo .owl-item #liyangyang {
+  background: url("../img/Echo/liyangyang.jpg") no-repeat center center;
+  background-size: cover;
+  top: 0;
+  position: absolute;
+}
+.box .echo .owl-item .we .liyangyang {
+  background: url("../img/Echo/liyangyang2.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 100%;
+  transition: all 0.5s;
+}
+.box .echo .owl-item .we:hover .liyangyang {
+  background: url("../img/Echo/liyangyang2.jpg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
+}
+.box .echo .owl-item #lijia {
+  background: url("../img/Echo/lijia2.jpg") no-repeat;
+  background-size: cover;
+  top: 0;
+  position: absolute;
+}
+.box .echo .owl-item .we .lijia {
+  background: url("../img/Echo/lijia.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 100%;
+  transition: all 0.5s;
+}
+.box .echo .owl-item .we:hover .lijia {
+  background: url("../img/Echo/lijia.jpg") no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -183,10 +255,11 @@ li {
 .box .echo .owl-item .we .liuye {
   background: url("../img/Echo/liuye3.jpg") no-repeat;
   background-size: cover;
-  top: 400px;
   width: 100%;
   height: 400px;
   position: absolute;
+  top: 100%;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .liuye {
   background: url("../img/Echo/liuye3.jpg") no-repeat;
@@ -204,10 +277,11 @@ li {
 .box .echo .owl-item .we .hongdou {
   background: url("../img/Echo/hongdou2.jpg") no-repeat;
   background-size: cover;
-  top: 400px;
   width: 100%;
   height: 400px;
   position: absolute;
+  top: 100%;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .hongdou {
   background: url("../img/Echo/hongdou2.jpg") no-repeat;
@@ -225,10 +299,11 @@ li {
 .box .echo .owl-item .we .ruanmeijuan {
   background: url("../img/Echo/RMJ.jpg") no-repeat;
   background-size: cover;
-  top: 400px;
   width: 100%;
   height: 400px;
   position: absolute;
+  top: 100%;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .ruanmeijuan {
   background: url("../img/Echo/RMJ.jpg") no-repeat;
@@ -244,15 +319,16 @@ li {
   position: absolute;
 }
 .box .echo .owl-item .we .dujialing {
-  background: url("../img/Echo/dujialing2.jpg") no-repeat;
+  background: url("../img/Echo/dujialing3.jpg") no-repeat;
   background-size: cover;
-  top: 400px;
   width: 100%;
   height: 400px;
   position: absolute;
+  top: 100%;
+  transition: all 0.5s;
 }
 .box .echo .owl-item .we:hover .dujialing {
-  background: url("../img/Echo/dujialing3.jpg") no-repeat;
+  background: url("../img/Echo/dujialing3.jpg") no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -320,6 +396,10 @@ li {
   font-size: 14px;
 }
 .box .footer .now-time {
+  display: flex;
+}
+.box .footer .now-time div {
+  margin-left: 5px;
   font-size: 16px;
 }
 

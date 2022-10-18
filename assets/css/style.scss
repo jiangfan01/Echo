@@ -56,7 +56,12 @@ li {
       }
     }
   }
-
+  .owl-theme .owl-controls .owl-page:hover span{
+    background-color: gray;
+  }
+  .owl-theme .owl-controls .owl-page.active span{
+    background-color: white;
+  }
   .echo {
     margin: 0 15px;
 
@@ -67,272 +72,402 @@ li {
       position: relative;
       overflow: hidden;
 
+
       img {
         width: 300px;
         display: block;
         height: 400px;
       }
-      .pic{
+
+      .pic {
         height: 400px;
         width: 300px;
       }
-      #dingjingwen{
+
+
+      #dingjingwen {
         background: url("../img/Echo/dingjingwen2.jpg") no-repeat;
-        background-size:cover;
+        background-size: cover;
         top: 0;
         position: absolute;
       }
-      .we .dingjingwen{
+
+      .we .dingjingwen {
         background: url("../img/Echo/dingjiwen.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+        background-size: cover;
+        top: 100%;
         width: 100%;
         height: 400px;
         position: absolute;
+        transition: all .5s;
       }
-      .we:hover .dingjingwen{
+
+      .we:hover .dingjingwen {
         background: url("../img/Echo/dingjiwen.jpg") no-repeat;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      #liting{
+
+      #liting {
         background: url("../img/Echo/liting.png") no-repeat;
         background-size: cover;
       }
 
-      #tanling{
+      #tanling {
         background: url("../img/Echo/tanling.jpg") no-repeat;
         background-size: cover;
         top: 0;
         position: absolute;
       }
-      .we .tanling{
+
+      .we .tanling {
         background: url("../img/Echo/tanling2.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+        background-size: cover;
         width: 100%;
         height: 400px;
         position: absolute;
+        top: 100%;
+        transition: all .5s;
       }
-      .we:hover .tanling{
+
+      .we:hover .tanling {
         background: url("../img/Echo/tanling2.jpg") no-repeat;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      #gumeng{
-        background: url("../img/Echo/img_2.png") no-repeat;
+
+      #gumeng {
+        background: url("../img/Echo/gumeng2.jpg") no-repeat;
         background-size: cover;
+        top: 0;
+        position: absolute;
       }
-      #mochunhua{
+
+      .we .gumeng {
+        background: url("../img/Echo/gumeng2.jpg") no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 100%;
+        transition: all .5s;
+      }
+
+      .we:hover .gumeng {
+        background: url("../img/Echo/gumeng3.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition: all .5s;
+      }
+
+      #mochunhua {
         background: url("../img/Echo/mochunhua.jpg") no-repeat;
         background-size: cover;
       }
-      #wanyao{
+
+      #wanyao {
         background: url("../img/Echo/wanyao.jpg") no-repeat;
         background-size: cover;
         top: 0;
         position: absolute;
       }
-      .we .wanyao{
+
+      .we .wanyao {
         background: url("../img/Echo/wanyao2.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+        background-size: cover;
         width: 100%;
         height: 400px;
         position: absolute;
+        top: 100%;
+        transition: all .5s;
       }
-      .we:hover .wanyao{
+
+      .we:hover .wanyao {
         background: url("../img/Echo/wanyao2.jpg") no-repeat;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      #qimengling{
+
+      #qimengling {
         background: url("../img/Echo/img_1.png") no-repeat;
         background-size: cover;
       }
-      #human{
+
+      #human {
         background: url("../img/Echo/human'.jpg") no-repeat;
         background-size: cover;
       }
-      #wangxiaojing{
+
+      #wangxiaojing {
         background: url("../img/Echo/wangxiaojing.jpg") no-repeat;
         background-size: cover;
       }
-      #keyuchen{
+
+      #keyuchen {
         background: url("../img/Echo/keyuchen.jpg") no-repeat;
         background-size: cover;
         top: 0;
         position: absolute;
       }
-      .we .keyuchen{
-        background: url("../img/Echo/keyuchen2.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+
+      .we .keyuchen {
+        background: url("../img/Echo/keyuchen4.jpg") no-repeat center center;
+        background-size: cover;
         width: 100%;
         height: 400px;
         position: absolute;
+        top: 100%;
+        transition: all .5s;
       }
-      .we:hover .keyuchen{
-        background: url("../img/Echo/keyuchen2.jpg") no-repeat;
+
+      .we:hover .keyuchen {
+        background: url("../img/Echo/keyuchen4.jpg") no-repeat center center;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      #liuye{
+
+      #liyangyang {
+        background: url("../img/Echo/liyangyang.jpg") no-repeat center center;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+
+      .we .liyangyang {
+        background: url("../img/Echo/liyangyang2.jpg") no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 100%;
+        transition: all .5s;
+      }
+
+      .we:hover .liyangyang {
+        background: url("../img/Echo/liyangyang2.jpg") no-repeat center center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition: all .5s;
+      }
+
+      #lijia {
+        background: url("../img/Echo/lijia2.jpg") no-repeat;
+        background-size: cover;
+        top: 0;
+        position: absolute;
+      }
+
+      .we .lijia {
+        background: url("../img/Echo/lijia.jpg") no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 100%;
+        transition: all .5s;
+      }
+
+      .we:hover .lijia {
+        background: url("../img/Echo/lijia.jpg") no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        transition: all .5s;
+      }
+
+      #liuye {
         background: url("../img/Echo/liuye.jpg") no-repeat;
         background-size: cover;
         top: 0;
         position: absolute;
       }
-      .we .liuye{
+
+      .we .liuye {
         background: url("../img/Echo/liuye3.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+        background-size: cover;
         width: 100%;
         height: 400px;
         position: absolute;
+        top: 100%;
+        transition: all .5s;
       }
-      .we:hover .liuye{
+
+      .we:hover .liuye {
         background: url("../img/Echo/liuye3.jpg") no-repeat;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      #hongdou{
+
+      #hongdou {
         background: url("../img/Echo/hongdou.jpg") no-repeat;
         background-size: cover;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      .we .hongdou{
+
+      .we .hongdou {
         background: url("../img/Echo/hongdou2.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+        background-size: cover;
         width: 100%;
         height: 400px;
         position: absolute;
+        top: 100%;
+        transition: all .5s;
       }
-      .we:hover .hongdou{
+
+      .we:hover .hongdou {
         background: url("../img/Echo/hongdou2.jpg") no-repeat;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      #ruanmeijuan{
+
+      #ruanmeijuan {
         background: url("../img/Echo/ruanmeijuan2.jpg") no-repeat;
         background-size: cover;
         top: 0;
         position: absolute;
       }
-      .we .ruanmeijuan{
+
+      .we .ruanmeijuan {
         background: url("../img/Echo/RMJ.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+        background-size: cover;
         width: 100%;
         height: 400px;
         position: absolute;
+        top: 100%;
+        transition: all .5s;
       }
-      .we:hover .ruanmeijuan{
+
+      .we:hover .ruanmeijuan {
         background: url("../img/Echo/RMJ.jpg") no-repeat;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      #dujialing{
+
+      #dujialing {
         background: url("../img/Echo/7db60c44cad6bb3960af4ecbfed62c6.jpg") no-repeat;
         background-size: cover;
         top: 0;
         position: absolute;
       }
-      .we .dujialing{
-        background: url("../img/Echo/dujialing2.jpg") no-repeat;
-        background-size:cover;
-        top: 400px;
+
+      .we .dujialing {
+        background: url("../img/Echo/dujialing3.jpg") no-repeat;
+        background-size: cover;
         width: 100%;
         height: 400px;
         position: absolute;
+        top: 100%;
+        transition: all .5s;
       }
-      .we:hover .dujialing{
-        background: url("../img/Echo/dujialing3.jpg") no-repeat;
+
+      .we:hover .dujialing {
+        background: url("../img/Echo/dujialing3.jpg") no-repeat center center;
         background-size: cover;
         position: absolute;
         top: 0;
-        transition:all .5s;
+        transition: all .5s;
       }
-      .we{
+
+      .we {
         height: 400px;
-        .they{
+
+        .they {
           background: white;
           position: absolute;
           bottom: 0;
           width: 100%;
-          div{
+
+          div {
             margin: 0 20px;
           }
-          .she{
+
+          .she {
             font-size: 16px;
             font-weight: bold;
             padding-top: 30px;
             padding-bottom: 5px;
             color: #545454;
           }
-          .birthday{
+
+          .birthday {
             color: gray;
           }
-          .meet{
+
+          .meet {
             font-size: 16px;
             padding: 30px 0;
           }
         }
       }
     }
-    .about-me{
+
+    .about-me {
       padding: 50px 0;
       display: flex;
       justify-content: center;
       align-items: center;
-      a{
+
+      a {
         font-size: 16px;
         color: #aeaeae;
         border: 1px solid #aeaeae;
         padding: 5px 12px;
         border-radius: 5px;
       }
-      a:hover{
+
+      a:hover {
         color: gray;
         border: 1px solid gray;
       }
     }
   }
-  .footer{
+
+  .footer {
     background: white;
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
     align-items: center;
     height: 150px;
-    .mean{
+
+    .mean {
       display: flex;
       flex-direction: column;
-      p{
+
+      p {
         font-size: 24px;
       }
-      .text{
+
+      .text {
         font-size: 14px;
       }
     }
-    .now-time{
-      font-size: 16px;
+
+    .now-time {
+      display: flex;
+
+      div {
+       margin-left: 5px;
+        font-size: 16px;
+
+      }
     }
   }
 }
